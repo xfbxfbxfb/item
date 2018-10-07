@@ -1,0 +1,333 @@
+.top {
+			width: 1420px;
+			height: 150px;
+			background-color: #004c88;
+			align-content: center;
+			position: relative;
+		}
+		
+		.loge {
+			width: 1200px;
+			height: 150px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.contian {
+			width: 1420px;
+		}
+		
+		.nav {
+			width: 1200px;
+			height: 150px;
+			position: relative;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			bottom: 0px;
+			margin: auto;
+		}
+		
+		.loleft {
+			margin-top: 25px;
+			float: left;
+		}
+		
+		.loright {
+			width: 302px;
+			height: 39px;
+			margin-top: 30px;
+			margin-right: 85px;
+			float: right;
+		}
+		
+		#b {
+			float: right;
+				margin-top: -55px;
+			margin-right: -80px;
+		}
+		
+		.right {
+			margin-left: 99px;
+		}
+		/*导航栏*/
+		
+		ol,
+		ul {
+			list-style: none;
+		}
+		
+		ul {
+			margin-left: -40px;
+		}
+		
+		.li1 {
+			position: relative;
+			float: left;
+			height: 50px;
+			width: 133.33px;
+			background-color: white;
+			margin-top: -16px;
+			line-height: 50px;
+			text-align: center;
+			z-index: 80;
+		}
+		
+		li:hover {
+			background-color: orange;
+		}
+		
+		a {
+			font-size: 20px;
+			text-decoration: none;
+			color: black;
+		}
+		
+		.li2 {
+			width: 300px;
+			text-align: left;
+			margin-left: -40px;
+			border-bottom: 1px solid gray;
+			margin-top: -2px;
+			cursor: pointer;
+		}
+		
+		.li2 {
+			display: none;
+			background-color: white;
+			border-bottom: 1px solid black;
+		}
+		
+		.li1:hover .li2 {
+			display: block;
+		}
+		/*轮播图*/
+		
+		.lunb {
+			width: 1420px;
+			margin-top: -151px;
+		}
+		
+		.lunbox {
+			position: relative;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			bottom: 0px;
+			margin: auto;
+			width: 1200px;
+			height: 370px;
+		}
+		
+		.boxleft {
+			left: 30px;
+			position: absolute;
+			width: 60px;
+			height: 370px;
+			font-size: 400%;
+			line-height: 370px;
+			text-align: center;
+			font-weight: 130;
+			z-index: 80;
+			opacity: 0.5;
+			cursor: pointer;
+		}
+		
+		.boxright {
+			cursor: pointer;
+			opacity: 0.5;
+			z-index: 80;
+			right: 30px;
+			position: absolute;
+			line-height: 370px;
+			text-align: center;
+			width: 60px;
+			height: 370px;
+			font-size: 400%;
+			font-weight: 130;
+		}
+		
+		.box img {
+			z-index: 10;
+			position: absolute;
+			width: 1200px;
+			height: 370px;
+		}
+		
+		.lunxia {}
+		
+		.lunxia ul {
+			width: 1200px;
+			text-align: center;
+			z-index: 80;
+			position: absolute;
+			bottom: 1%;
+		}
+		
+		.lunxia ul li {
+			list-style: none;
+			cursor: pointer;
+			width: 10px;
+			height: 10px;
+			border: 1px solid white;
+			display: inline-block;
+			margin-left: 5px;
+			border-radius: 10px;
+		}
+		/*信科要闻*/
+		
+		.contiansun {
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.menuleft {
+			width: 740px;
+			height: 276px;
+		}
+		/*小轮播*/
+		
+		.lunb2 {
+			width: 320px;
+			height: 223px;
+			float: left;
+		}
+		
+		.lunbox2 {
+			position: relative;
+			width: 320px;
+			height: 223px;
+			cursor: pointer;
+		}
+		
+		.box2 {}
+		
+		.box2 img {
+			/*display: none;*/
+			position: absolute;
+			width: 320px;
+			height: 223px;
+			z-index: 3;
+		}
+		
+		.lunxia2 {
+			position: absolute;
+			width: 320px;
+			height: 223px;
+			z-index: 80;
+		}
+		
+		.lunxia2 ul {
+			position: absolute;
+			width: 320px;
+			text-align: center;
+			list-style: none;
+			z-index: 80;
+			bottom: -10px;
+		}
+		
+		.lunxia2 ul li {
+			cursor: pointer;
+			display: inline-block;
+			z-index: 80;
+			width: 10px;
+			height: 10px;
+			margin: 0px 3px 0px 0px;
+			border: 1px solid white;
+			border-radius: 10px;
+		}
+		/*标题右内容*/
+		
+		.menuleft-right {
+			width: 400px;
+			height: 223px;
+			float: right;
+		}
+		
+		.menuleft a:hover {
+			color: red;
+		}
+		
+		.menuright-top a:hover {
+			color: red;
+		}
+		
+		.textcenter {
+			/*缩进两格*/
+			text-indent: 2em;
+			line-height: 1.75;
+			font-size: 70%;
+		}
+		
+		.newlist ul li a {
+			font-size: 14px;
+		}
+		
+		.newlist ul li {
+			background-color: white;
+			margin-top: 4px;
+		}
+		
+		.newlist ul li a:hover {
+			color: red;
+		}
+		
+		.textcenter a:hover {
+			color: red;
+		}
+		/*媒体信科*/
+		
+		.menuright {
+			width: 408px;
+			float: right;
+			margin-top: -296px;
+		}
+		
+		.menuright-bottom ul li {
+			background-color: white;
+			margin-top: 9px;
+		}
+		
+		.menuright-bottom ul li a {
+			cursor: pointer;
+			font-size: 14px;
+		}
+		
+		.menuright-bottom ul li a:hover {
+			color: red;
+		}
+		/*校园服务*/
+		
+		.fuwu ul li {
+			margin-left: 13px;
+			margin-top: 10px;
+			text-align: center;
+			line-height: 55px;
+			width: 136px;
+			height: 55px;
+			float: left;
+			background-color: white;
+		}
+		
+		.fuwu ul li a:hover {
+			color: red;
+		}
+		/*快速导航*/
+		
+		.box-list ul {
+			list-style: none;
+		}
+		
+		.box-list ul li {
+			float: left;
+			width: 129px;
+			height: 79px;
+			margin-left: 6px;
+			text-align: center;
+			cursor: pointer;
+		}
+		
+		.box-list ul li:hover {
+			box-shadow: 2px 2px 2px 2px gray;
+		}
